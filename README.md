@@ -57,7 +57,7 @@ ai-camera-undo/
 ## 1 Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-camera-undo.git
+git clone https://github.com/njansanjay/ai-camera-undo.git
 
 cd ai-camera-undo
 ```
