@@ -38,17 +38,18 @@ export default function Map() {
   }, [])
 
   return (
-    <MapContainer
-      center={[10.8505, 76.2711]}
-      zoom={7}
-      style={{ height: "100vh", width: "100%" }}
-    >
+<MapContainer
+  center={[10.8505, 76.2711]}
+  zoom={7}
+  preferCanvas={true}
+  style={{ height: "100vh", width: "100%" }}
+>
       <TileLayer
         attribution='&copy; OpenStreetMap contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
-<MarkerClusterGroup>
+<MarkerClusterGroup chunkedLoading>
 
   {cameras.map((camera, index) => (
     <Marker
