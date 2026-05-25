@@ -1,4 +1,4 @@
-# 🚦 AI Camera Undo — Kerala AI Camera Awareness Platform
+# ai-camera-undo — Kerala AI Camera Awareness Platform
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
 
@@ -9,22 +9,22 @@ The platform is designed as a road-safety and traffic-awareness tool built with 
 
 ---
 
-# ✨ Features
+#  Features
 
-* 🗺️ Interactive Kerala AI camera map
-* 📍 5000+ AI camera locations visualized
-* ⚡ Marker clustering for smooth performance
-* 🔍 Zoom-based map exploration
-* 📱 Mobile-responsive interface
-* 🚦 Camera location popups with district info
-* 🌍 OpenStreetMap integration
-* ⚙️ Real-time map rendering using Leaflet
-* 📂 JSON-based scalable dataset system
-* 🚀 Fast deployment using Vercel
+* Interactive Kerala AI camera map
+* 5000+ AI camera locations visualized
+* Marker clustering for smooth performance
+* Zoom-based map exploration
+* Mobile-responsive interface
+* Camera location popups with district info
+* OpenStreetMap integration
+* Real-time map rendering using Leaflet
+* JSON-based scalable dataset system
+* Fast deployment using Vercel
 
 ---
 
-# 🧠 Tech Stack
+# Tech Stack
 
 ## Frontend
 
@@ -38,7 +38,7 @@ The platform is designed as a road-safety and traffic-awareness tool built with 
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 ai-camera-undo/
@@ -52,9 +52,9 @@ ai-camera-undo/
 
 ---
 
-# ⚙️ Setup Instructions
+# Setup Instructions
 
-## 1️⃣ Clone Repository
+## 1 Clone Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/ai-camera-undo.git
@@ -64,7 +64,7 @@ cd ai-camera-undo
 
 ---
 
-## 2️⃣ Install Dependencies
+## 2️ Install Dependencies
 
 ```bash
 npm install
@@ -72,7 +72,7 @@ npm install
 
 ---
 
-## 3️⃣ Run Development Server
+## 3️ Run Development Server
 
 ```bash
 npm run dev
@@ -86,7 +86,7 @@ http://localhost:3000
 
 ---
 
-# 🗺️ Dataset
+# Dataset
 
 The platform uses a large JSON dataset containing:
 
@@ -110,7 +110,7 @@ Dataset structure example:
 
 ---
 
-# 🚀 Deployment
+# Deployment
 
 This project is deployed using:
 
@@ -126,7 +126,7 @@ Vercel automatically redeploys on every push.
 
 ---
 
-# ⚡ Performance Optimizations
+# Performance Optimizations
 
 * Marker clustering
 * Chunked marker loading
@@ -136,15 +136,15 @@ Vercel automatically redeploys on every push.
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
-* 📍 Live GPS tracking
-* 🚨 Nearby camera alerts
-* 🔍 Search by district/location
-* 🧭 Route-based camera prediction
-* ☁️ Database integration
-* 👥 Community camera reporting
-* 📊 Traffic analytics dashboard
+* Live GPS tracking
+* Nearby camera alerts
+* Search by district/location
+* Route-based camera prediction
+* Database integration
+* Community camera reporting
+* Traffic analytics dashboard
 
 ---
 
@@ -152,15 +152,15 @@ Vercel automatically redeploys on every push.
 
 This platform is intended for:
 
-✅ Road safety awareness  
-✅ Traffic information visualization  
-✅ Publicly available camera location awareness  
+Road safety awareness  
+Traffic information visualization  
+Publicly available camera location awareness  
 
 Users should always follow traffic laws and drive responsibly.
 
 ---
 
-# 📸 Live Preview
+# Live Preview
 
 ```text
 https://ai-camera-undo.vercel.app/
@@ -168,12 +168,12 @@ https://ai-camera-undo.vercel.app/
 
 ---
 
-# 🧑‍💻 Author
+# Author
 
 Sanjay.R
 
 ---
 
-# 📄 License
+# License
 
 This project is open-source and available under the MIT License.
