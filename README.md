@@ -1,3 +1,4 @@
+````markdown
 # 🚦 AI camera undo — Kerala AI Camera Awareness Platform
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
@@ -38,9 +39,7 @@ The platform is designed as a road-safety and traffic-awareness tool built with 
 
 ---
 
-
-````markdown
-## 🗺️ Project Workflow
+# 🗺️ Project Workflow
 
 ```mermaid
 flowchart LR
@@ -67,10 +66,6 @@ J --> K[District]
 J --> L[Location]
 J --> M[Camera Type]
 ````
-
-
-
-
 
 ---
 
@@ -188,9 +183,9 @@ Vercel automatically redeploys on every push.
 
 This platform is intended for:
 
-✅ Road safety awareness  
-✅ Traffic information visualization  
-✅ Publicly available camera location awareness  
+✅ Road safety awareness
+✅ Traffic information visualization
+✅ Publicly available camera location awareness
 
 Users should always follow traffic laws and drive responsibly.
 
@@ -213,3 +208,6 @@ Sanjay.R
 # 📄 License
 
 This project is open-source and available under the MIT License.
+
+```
+```
