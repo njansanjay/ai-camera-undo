@@ -1,27 +1,26 @@
 ````markdown
-# 🚦 AI camera undo — Kerala AI Camera Awareness Platform
+# 🚦 AI Camera Undo — Kerala AI Camera Awareness Platform
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
 
-AI Camera Undo is a full-stack interactive map platform that helps users locate AI traffic cameras across Kerala.  
-It provides real-time visualization of camera locations using GIS mapping technology, clustering, and location-based awareness features.
+AI Camera Undo is an interactive web platform that helps users locate AI traffic cameras across Kerala using an optimized GIS-based map interface.
 
-The platform is designed as a road-safety and traffic-awareness tool built with modern web technologies and scalable map rendering techniques.
+The platform visualizes thousands of AI camera locations with clustering, popup information, and smooth rendering for better traffic-awareness and road-safety accessibility.
 
 ---
 
 # ✨ Features
 
-* 🗺️ Interactive Kerala AI camera map
-* 📍 5000+ AI camera locations visualized
-* ⚡ Marker clustering for smooth performance
-* 🔍 Zoom-based map exploration
-* 📱 Mobile-responsive interface
-* 🚦 Camera location popups with district info
-* 🌍 OpenStreetMap integration
-* ⚙️ Real-time map rendering using Leaflet
-* 📂 JSON-based scalable dataset system
-* 🚀 Fast deployment using Vercel
+- 🗺️ Interactive Kerala AI camera map
+- 📍 5000+ AI camera locations visualized
+- ⚡ Marker clustering for smooth performance
+- 🔍 Zoom-based map exploration
+- 📱 Mobile-responsive interface
+- 🚦 Camera location popups with district info
+- 🌍 OpenStreetMap integration
+- ⚙️ Real-time rendering using Leaflet
+- 📂 JSON-based scalable dataset system
+- 🚀 Fast deployment using Vercel
 
 ---
 
@@ -29,13 +28,13 @@ The platform is designed as a road-safety and traffic-awareness tool built with 
 
 ## Frontend
 
-* Next.js
-* TypeScript
-* React
-* Tailwind CSS
-* Leaflet.js
-* React Leaflet
-* React Leaflet Cluster
+- Next.js
+- TypeScript
+- React
+- Tailwind CSS
+- Leaflet.js
+- React Leaflet
+- React Leaflet Cluster
 
 ---
 
@@ -44,13 +43,13 @@ The platform is designed as a road-safety and traffic-awareness tool built with 
 ```mermaid
 flowchart LR
 
-A[User Opens AI Camera Undo] --> B[Next.js Frontend]
+A[User Opens Website] --> B[Next.js Frontend]
 
 B --> C[React Leaflet Map]
 
 B --> D[cameras.json Dataset]
 
-D --> E[700+ Kerala AI Camera Locations]
+D --> E[AI Camera Locations]
 
 E --> F[Latitude & Longitude Parsing]
 
@@ -58,7 +57,7 @@ F --> G[MarkerClusterGroup]
 
 G --> H[Optimized Map Rendering]
 
-H --> I[Interactive Camera Markers]
+H --> I[Interactive Markers]
 
 I --> J[Popup Information]
 
@@ -73,11 +72,11 @@ J --> M[Camera Type]
 
 ```text
 ai-camera-undo/
-├── app/              # Next.js app router
-├── components/       # Map components
-├── public/           # Static assets + cameras.json
-├── types/            # TypeScript types
-├── lib/              # Utility/helper files
+├── app/
+├── components/
+├── public/
+├── types/
+├── lib/
 └── package.json
 ```
 
@@ -119,18 +118,17 @@ http://localhost:3000
 
 # 🗺️ Dataset
 
-The platform uses a large JSON dataset containing:
+Dataset contains:
 
-* AI camera coordinates
+* Camera coordinates
 * District information
 * Camera locations
 * Camera types
 
-Dataset structure example:
+Example:
 
 ```json
 {
-  "Unique_id": "KL-KEL-KMVD-50-AICS-14-710",
   "District": "Kasaragod",
   "Location": "Bandadka",
   "Lat": 12.498763,
@@ -143,11 +141,7 @@ Dataset structure example:
 
 # 🚀 Deployment
 
-This project is deployed using:
-
-* Vercel
-
-To deploy:
+Deployed using Vercel.
 
 ```bash
 git push
@@ -160,9 +154,9 @@ Vercel automatically redeploys on every push.
 # ⚡ Performance Optimizations
 
 * Marker clustering
-* Chunked marker loading
+* Chunked loading
 * Canvas rendering
-* Dynamic JSON loading
+* Dynamic dataset loading
 * Optimized map rendering
 
 ---
@@ -175,7 +169,6 @@ Vercel automatically redeploys on every push.
 * 🧭 Route-based camera prediction
 * ☁️ Database integration
 * 👥 Community camera reporting
-* 📊 Traffic analytics dashboard
 
 ---
 
@@ -183,9 +176,9 @@ Vercel automatically redeploys on every push.
 
 This platform is intended for:
 
-✅ Road safety awareness
-✅ Traffic information visualization
-✅ Publicly available camera location awareness
+* Road safety awareness
+* Traffic information visualization
+* Publicly available camera location awareness
 
 Users should always follow traffic laws and drive responsibly.
 
@@ -193,9 +186,7 @@ Users should always follow traffic laws and drive responsibly.
 
 # 📸 Live Preview
 
-```text
 https://ai-camera-undo.vercel.app/
-```
 
 ---
 
@@ -207,7 +198,7 @@ Sanjay.R
 
 # 📄 License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License.
 
 ```
 ```
