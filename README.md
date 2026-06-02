@@ -39,11 +39,11 @@ The platform is designed as a road-safety and traffic-awareness tool built with 
 ---
 
 
-
+````markdown
 ## 🗺️ Project Workflow
 
 ```mermaid
-flowchart TD
+flowchart LR
 
 A[User Opens AI Camera Undo] --> B[Next.js Frontend]
 
@@ -66,8 +66,11 @@ I --> J[Popup Information]
 J --> K[District]
 J --> L[Location]
 J --> M[Camera Type]
-```
 ````
+
+```
+```
+
 
 
 ---
