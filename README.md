@@ -68,8 +68,7 @@ J --> L[Location]
 J --> M[Camera Type]
 ````
 
-```
-```
+
 
 
 
