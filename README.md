@@ -1,4 +1,4 @@
-````markdown
+
 # 🚦 AI Camera Undo — Kerala AI Camera Awareness Platform
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
