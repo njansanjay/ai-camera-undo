@@ -39,7 +39,7 @@ The platform is designed as a road-safety and traffic-awareness tool built with 
 ---
 
 
-````markdown
+
 ## 🗺️ Project Workflow
 
 ```mermaid
