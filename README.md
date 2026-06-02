@@ -38,6 +38,40 @@ The platform is designed as a road-safety and traffic-awareness tool built with 
 
 ---
 
+
+````markdown
+## 🗺️ Project Workflow
+
+```mermaid
+flowchart TD
+
+A[User Opens AI Camera Undo] --> B[Next.js Frontend]
+
+B --> C[React Leaflet Map]
+
+B --> D[cameras.json Dataset]
+
+D --> E[700+ Kerala AI Camera Locations]
+
+E --> F[Latitude & Longitude Parsing]
+
+F --> G[MarkerClusterGroup]
+
+G --> H[Optimized Map Rendering]
+
+H --> I[Interactive Camera Markers]
+
+I --> J[Popup Information]
+
+J --> K[District]
+J --> L[Location]
+J --> M[Camera Type]
+```
+````
+
+
+---
+
 # 📁 Project Structure
 
 ```text
