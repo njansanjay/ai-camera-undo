@@ -116,7 +116,6 @@ http://localhost:3000
 
 ---
 
----
 
 # 🐳 Docker Support
 
