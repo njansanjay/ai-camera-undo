@@ -116,6 +116,45 @@ http://localhost:3000
 
 ---
 
+---
+
+# 🐳 Docker Support
+
+This project can also be run using Docker.
+
+## Build Docker Image
+
+```bash
+docker build -t ai-camera-undo .
+```
+
+## Run Using Docker
+
+```bash
+docker run -p 3000:3000 ai-camera-undo
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+## Run Using Docker Compose
+
+```bash
+docker compose up
+```
+
+Stop the container:
+
+```bash
+docker compose down
+```
+
+---
+
+
 # 🗺️ Dataset
 
 Dataset contains:
