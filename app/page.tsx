@@ -22,11 +22,11 @@ function CameraMark() {
   return (
     <span className="brand-mark" aria-hidden="true">
       <svg viewBox="0 0 40 40" fill="none">
-        <rect x="3" y="7" width="34" height="26" rx="9" fill="currentColor" />
-        <circle cx="20" cy="20" r="7.5" fill="#f7f7f2" />
-        <circle cx="20" cy="20" r="4" fill="currentColor" />
-        <path d="M11 7.5 14 3h12l3 4.5" stroke="currentColor" strokeWidth="3" strokeLinejoin="round" />
-        <circle cx="31" cy="13" r="1.6" fill="#c7f36b" />
+          <path d="M11 10.5 14 6h12l3 4.5" fill="currentColor" />
+          <rect x="3" y="10" width="34" height="26" rx="9" fill="currentColor" />
+          <circle cx="19" cy="23" r="8" fill="#f7f7f2" />
+          <circle cx="19" cy="23" r="4.3" fill="currentColor" />
+          <circle cx="31" cy="16" r="2" fill="#c7f36b" />
       </svg>
     </span>
   )
@@ -50,7 +50,7 @@ export default function Home() {
       <header className="topbar">
         <a className="brand" href="#home" aria-label="AI Camera Undo home">
           <CameraMark />
-          <span className="brand-name">camera<span>undo</span></span>
+          <span className="brand-name">AI Camera <span>Undo</span></span>
           <span className="brand-dot">.</span>
         </a>
         <nav className="topnav" aria-label="Main navigation">
@@ -119,7 +119,7 @@ export default function Home() {
         <p>Browse publicly listed camera locations, check the map before you travel, and always follow the rules of the road.</p>
       </section>
 
-      <footer className="footer"><a className="footer-brand" href="#home">camera<span>undo</span>.</a><span>Made for Kerala. Drive safe, wherever you go. <span aria-hidden="true">·</span> An open-source project by <a href="https://github.com/njansanjay" target="_blank" rel="noreferrer">njansanjay ↗</a></span><a href="#home">Back to top ↑</a></footer>
+      <footer className="footer"><a className="footer-brand" href="#home">AI Camera <span>Undo</span>.</a><span>Made for Kerala. Drive safe, wherever you go. <span aria-hidden="true">·</span> An open-source project by <a href="https://github.com/njansanjay" target="_blank" rel="noreferrer">njansanjay ↗</a></span><a href="#home">Back to top ↑</a></footer>
     </main>
   )
 }

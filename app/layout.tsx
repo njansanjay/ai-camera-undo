@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "AI Camera Undo",
   description:
     "Interactive map of AI traffic cameras across Kerala with 500+ camera locations.",
+  icons: {
+    icon: "/icon.svg",
+  },
 
   openGraph: {
     title: "AI Camera Undo",
