@@ -175,7 +175,7 @@ export default function Map() {
   }
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative h-full min-h-[520px] w-full">
       {/* Search UI */}
       <div className="absolute top-4 right-4 z-[1000] flex items-start">
         {!isSearchOpen ? (
