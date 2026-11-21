@@ -119,7 +119,7 @@ export default function Home() {
         <p>Browse publicly listed camera locations, check the map before you travel, and always follow the rules of the road.</p>
       </section>
 
-      <footer className="footer"><a className="footer-brand" href="#home">camera<span>undo</span>.</a><span>Made for Kerala. Drive safe, wherever you go. <span aria-hidden="true">·</span> An open-source project by njansanjay ↗ <a href="https://github.com/njansanjay" target="_blank" rel="noreferrer">Sanjay.R on GitHub</a></span><a href="#home">Back to top ↑</a></footer>
+      <footer className="footer"><a className="footer-brand" href="#home">camera<span>undo</span>.</a><span>Made for Kerala. Drive safe, wherever you go. <span aria-hidden="true">·</span> An open-source project by <a href="https://github.com/njansanjay" target="_blank" rel="noreferrer">njansanjay ↗</a></span><a href="#home">Back to top ↑</a></footer>
     </main>
   )
 }
