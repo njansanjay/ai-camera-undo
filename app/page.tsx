@@ -99,7 +99,7 @@ export default function Home() {
 
       <section className="stats-row" aria-label="Camera map statistics">
         <div className="stats-intro"><span className="stats-kicker">THE BIG PICTURE</span><strong>One map. A clearer view.</strong></div>
-        <div className="stat"><strong>{cameraData.length ? cameraData.length.toLocaleString("en-IN") : "697"}<span>+</span></strong><span>mapped locations</span></div>
+        <div className="stat"><strong>{cameraData.length ? cameraData.length.toLocaleString("en-IN") : "697"}</strong><span>mapped locations</span></div>
         <div className="stat"><strong>{districtCount || 14}<span>/14</span></strong><span>districts covered</span></div>
         <div className="stat"><strong>{aiCameraCount ? aiCameraCount.toLocaleString("en-IN") : "669"}</strong><span>AI cameras listed</span></div>
       </section>
